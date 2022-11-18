@@ -1,0 +1,3 @@
+<template>
+  <PBox></PBox>
+</template>
