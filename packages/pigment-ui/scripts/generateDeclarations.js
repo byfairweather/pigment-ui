@@ -15,8 +15,7 @@ function generateDeclarations() {
     .filter((component) => component.endsWith(".vue"))
     .map((component) => component.split(".")[0]);
 
-  return `
-import type { Plugin } from "vue";
+  return `import { Plugin } from "vue";
 const pigment: Plugin;
 export default pigment;
 

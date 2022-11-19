@@ -6,7 +6,7 @@
     "serve": "vite --open"
   },
   "dependencies": {
-    "pigment-ui": "file:../packages/pigment-ui",
+    "pigment-ui": "file:pigment-ui",
     "vue": "^3.2.41"
   },
   "devDependencies": {

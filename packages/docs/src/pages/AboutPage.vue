@@ -1,3 +1,3 @@
 <template>
-  <span>About Page</span>
+  <PBox>About Page</PBox>
 </template>
