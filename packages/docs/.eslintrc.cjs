@@ -12,4 +12,12 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
   },
+  overrides: [
+    {
+      files: ["src/pages/*"],
+      rules: {
+        "vue/multi-word-component-names": "off",
+      },
+    },
+  ],
 };
