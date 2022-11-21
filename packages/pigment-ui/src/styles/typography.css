@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+:root {
+  --typography-body-color: var(--color-neutral-60);
+  --typography-body-font: "Roboto", sans-serif;
+  --typography-body-size: 1rem;
+  --typography-body-weight: 300;
+  --typography-body-line-height: 1.4;
+
+  --typography-paragraph-spacing: 1rem;
+
+  --typography-h1-color: var(--color-neutral-80);
+  --typography-h1-font: "Roboto Condensed", sans-serif;
+  --typography-h1-size: 2rem;
+  --typography-h1-weight: 700;
+
+  --typography-h2-color: var(--color-neutral-80);
+  --typography-h2-font: "Roboto Condensed", sans-serif;
+  --typography-h2-size: 1.5rem;
+  --typography-h2-weight: 700;
+
+  --typography-h3-color: var(--color-neutral-70);
+  --typography-h3-font: "Roboto Condensed", sans-serif;
+  --typography-h3-size: 1.25rem;
+  --typography-h3-weight: 700;
+
+  --typography-h4-color: var(--color-neutral-70);
+  --typography-h4-font: "Roboto Condensed", sans-serif;
+  --typography-h4-size: 1rem;
+  --typography-h4-weight: 700;
+
+  --typography-h5-color: var(--color-neutral-70);
+  --typography-h5-font: "Roboto Condensed", sans-serif;
+  --typography-h5-size: 1rem;
+  --typography-h5-weight: 400;
+
+  --typography-h6-color: var(--color-neutral-70);
+  --typography-h6-font: "Roboto Condensed", sans-serif;
+  --typography-h6-size: 1rem;
+  --typography-h6-weight: 300;
+}
+
+body {
+  color: var(--typography-body-color);
+  font-family: var(--typography-body-font);
+  font-size: var(--typography-body-size);
+  font-weight: var(--typography-body-weight);
+  line-height: var(--typography-body-line-height);
+}
+
+p {
+  margin-bottom: var(--typography-paragraph-spacing);
+}
+
+h1 {
+  color: var(--typography-h1-color);
+  font-family: var(--typography-h1-font);
+  font-size: var(--typography-h1-size);
+  font-weight: var(--typography-h1-weight);
+}
+
+h2 {
+  color: var(--typography-h2-color);
+  font-family: var(--typography-h2-font);
+  font-size: var(--typography-h2-size);
+  font-weight: var(--typography-h2-weight);
+}
+
+h3 {
+  color: var(--typography-h3-color);
+  font-family: var(--typography-h3-font);
+  font-size: var(--typography-h3-size);
+  font-weight: var(--typography-h3-weight);
+}
+
+h4 {
+  color: var(--typography-h4-color);
+  font-family: var(--typography-h4-font);
+  font-size: var(--typography-h4-size);
+  font-weight: var(--typography-h4-weight);
+}
+
+h5 {
+  color: var(--typography-h5-color);
+  font-family: var(--typography-h5-font);
+  font-size: var(--typography-h5-size);
+  font-weight: var(--typography-h5-weight);
+}
+
+h6 {
+  color: var(--typography-h6-color);
+  font-family: var(--typography-h6-font);
+  font-size: var(--typography-h6-size);
+  font-weight: var(--typography-h6-weight);
+}
+
+ul,
+ol {
+  margin: 0 0 var(--typography-paragraph-spacing) 2rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin: 0.3rem 0;
+}

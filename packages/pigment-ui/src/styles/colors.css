@@ -1,5 +1,4 @@
 :root {
-  /* https://lyft-colorbox.herokuapp.com/#steps=11#hue_start=202#hue_end=202#hue_curve=linear#sat_start=5#sat_end=70#sat_curve=easeOutSine#sat_rate=150#lum_start=100#lum_end=25#lum_curve=easeOutSine#minor_steps_map=none */
   --color-primary-0: #ecf8ff;
   --color-primary-10: #c5e9fd;
   --color-primary-20: #9cd6f8;
@@ -12,7 +11,6 @@
   --color-primary-90: #003b5d;
   --color-primary-100: #002840;
 
-  /* https://lyft-colorbox.herokuapp.com/#steps=11#hue_start=0#hue_end=0#hue_curve=linear#sat_start=0#sat_end=1#sat_curve=easeOutSine#sat_rate=27#lum_start=100#lum_end=5#lum_curve=easeInOutSine#minor_steps_map=none */
   --color-neutral-0: #ffffff;
   --color-neutral-10: #f9f8f8;
   --color-neutral-20: #eae9e9;
@@ -25,7 +23,6 @@
   --color-neutral-90: #131313;
   --color-neutral-100: #0d0d0d;
 
-  /* https://lyft-colorbox.herokuapp.com/#steps=11#hue_start=10#hue_end=10#hue_curve=linear#sat_start=5#sat_end=70#sat_curve=easeOutSine#sat_rate=150#lum_start=100#lum_end=20#lum_curve=easeInOutSine#minor_steps_map=none */
   --color-error-0: #ffefec;
   --color-error-10: #facbc2;
   --color-error-20: #eda394;
@@ -38,7 +35,6 @@
   --color-error-90: #390900;
   --color-error-100: #330800;
 
-  /* https://lyft-colorbox.herokuapp.com/#steps=11#hue_start=35#hue_end=42#hue_curve=linear#sat_start=5#sat_end=79#sat_curve=easeOutSine#sat_rate=140#lum_start=100#lum_end=20#lum_curve=easeInOutSine#minor_steps_map=none */
   --color-warning-0: #fff8ed;
   --color-warning-10: #fae3c1;
   --color-warning-20: #edc991;
@@ -51,7 +47,6 @@
   --color-warning-90: #392700;
   --color-warning-100: #332400;
 
-  /* https://lyft-colorbox.herokuapp.com/#steps=11#hue_start=84#hue_end=68#hue_curve=linear#sat_start=5#sat_end=60#sat_curve=easeOutSine#sat_rate=164#lum_start=100#lum_end=20#lum_curve=easeInOutSine#minor_steps_map=none */
   --color-success-0: #f7ffea;
   --color-success-10: #e5fac3;
   --color-success-20: #d0ed98;

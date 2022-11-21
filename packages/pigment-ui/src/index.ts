@@ -1,6 +1,6 @@
-import "./styles.css";
 import type { Plugin } from "vue";
 import PBox from "./components/PBox.vue";
+import "./styles/index.css";
 
 const plugin: Plugin = {
   install: (app, options) => {

@@ -11,6 +11,10 @@ const router = createRouter({
       path: "/color",
       component: () => import("../pages/Color.vue"),
     },
+    {
+      path: "/typography",
+      component: () => import("../pages/Typography.vue"),
+    },
   ],
 });
 
