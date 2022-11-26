@@ -5,7 +5,7 @@
 <script lang="ts">
 import { computed } from "@vue/reactivity";
 import { defineComponent, type PropType } from "vue";
-import { pigmentOptions, type Icon } from "../options";
+import { pigmentOptions, type Icon } from "../utils/options";
 
 export default defineComponent({
   props: {

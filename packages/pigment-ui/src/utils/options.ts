@@ -1,4 +1,12 @@
 export const pigmentOptions: PigmentOptions = {
+  layout: {
+    breakpoints: {
+      xs: 300,
+      sm: 500,
+      md: 700,
+      lg: 900,
+    },
+  },
   icons: {
     iconTemplate: (icon: Icon) =>
       `<i class='${icon.pack} fa-${icon.name}'></i>`,
@@ -11,6 +19,14 @@ export const pigmentOptions: PigmentOptions = {
 };
 
 export interface PigmentOptions {
+  layout: {
+    breakpoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
+    };
+  };
   icons: {
     iconTemplate: (icon: Icon) => string;
     defaultPack: string;
