@@ -81,6 +81,19 @@
 </template>
 
 <style>
+tr {
+  color: var(--color-neutral-100);
+}
+tr:nth-child(5),
+tr:nth-child(6),
+tr:nth-child(7),
+tr:nth-child(8),
+tr:nth-child(9),
+tr:nth-child(10),
+tr:nth-child(11) {
+  color: var(--color-neutral-0);
+}
+
 tr:nth-child(1) td:nth-child(1) {
   background-color: var(--color-primary-0);
 }

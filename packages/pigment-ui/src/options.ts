@@ -1,6 +1,7 @@
 export const pigmentOptions: PigmentOptions = {
   icons: {
-    iconFormat: (icon: Icon) => `<i class='${icon.pack} fa-${icon.name}'></i>`,
+    iconTemplate: (icon: Icon) =>
+      `<i class='${icon.pack} fa-${icon.name}'></i>`,
     defaultPack: "fas",
     defaultIcons: {
       menu: { pack: "fas", name: "menu" },
@@ -11,16 +12,16 @@ export const pigmentOptions: PigmentOptions = {
 
 export interface PigmentOptions {
   icons: {
-    iconFormat: (icon: Icon) => string;
+    iconTemplate: (icon: Icon) => string;
     defaultPack: string;
     defaultIcons: {
-      menu: Icon;
-      chevron: Icon;
+      menu: Icon | string;
+      chevron: Icon | string;
     };
   };
 }
 
-interface Icon {
-  pack: string;
+export interface Icon {
+  pack?: string;
   name: string;
 }
