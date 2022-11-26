@@ -4,7 +4,7 @@
   "type": "module",
   "main": "./dist/pigment-ui.umd.cjs",
   "module": "./dist/pigment-ui.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/pigment-ui.js",
@@ -18,9 +18,11 @@
   "scripts": {
     "build": "vite build",
     "watch": "vite build --watch",
-    "types": "node ./scripts/generateDeclarations.js"
+    "types": "vue-tsc -p tsconfig.types.json"
   },
   "dependencies": {
+    "deepmerge": "^4.2.2",
+    "type-fest": "^3.2.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {

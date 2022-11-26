@@ -3,6 +3,7 @@
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/color">Color</RouterLink>
     <RouterLink to="/typography">Typography</RouterLink>
+    <RouterLink to="/icons">Icons</RouterLink>
   </nav>
   <RouterView />
 </template>

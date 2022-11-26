@@ -15,6 +15,10 @@ const router = createRouter({
       path: "/typography",
       component: () => import("../pages/Typography.vue"),
     },
+    {
+      path: "/icons",
+      component: () => import("../pages/Icons.vue"),
+    },
   ],
 });
 

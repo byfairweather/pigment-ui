@@ -1,7 +1,8 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "dist/index.d.ts"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
+    "sourceMap": true,
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {

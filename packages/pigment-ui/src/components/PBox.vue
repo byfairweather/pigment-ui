@@ -1,5 +1,5 @@
 <template>
-  <div class="p-box">Hello World!</div>
+  <div class="p-box">This is P-Box</div>
 </template>
 
 <script lang="ts">
@@ -11,9 +11,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style>
-.p-box {
-  color: var(--test-var);
-}
-</style>
