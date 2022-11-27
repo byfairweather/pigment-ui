@@ -16,8 +16,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "Pigment UI",
-      fileName: "pigment-ui",
+      name: "Pigment",
+      fileName: "pigment",
     },
     rollupOptions: {
       external: ["vue"],
@@ -25,7 +25,7 @@ export default defineConfig({
         globals: {
           vue: "Vue",
         },
-        assetFileNames: "pigment-ui.[ext]",
+        assetFileNames: "pigment.[ext]",
       },
     },
   },

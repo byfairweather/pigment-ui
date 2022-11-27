@@ -17,8 +17,6 @@
           <PNavItem>
             <PIcon icon="bars"></PIcon>
           </PNavItem>
-          <!-- TODO: Mobile dropdown menu -->
-          <!--<slot name="mobile"></slot>-->
         </div>
       </template>
     </nav>

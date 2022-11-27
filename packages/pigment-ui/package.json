@@ -2,17 +2,17 @@
   "name": "pigment-ui",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/pigment-ui.umd.cjs",
-  "module": "./dist/pigment-ui.js",
+  "main": "./dist/pigment.umd.cjs",
+  "module": "./dist/pigment.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/pigment-ui.js",
-      "require": "./dist/pigment-ui.umd.cjs"
+      "import": "./dist/pigment.js",
+      "require": "./dist/pigment.umd.cjs"
     },
     "./styles": {
-      "import": "./dist/pigment-ui.css",
-      "require": "./dist/pigment-ui.css"
+      "import": "./dist/pigment.css",
+      "require": "./dist/pigment.css"
     }
   },
   "scripts": {
